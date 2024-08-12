@@ -1,5 +1,12 @@
 export const App = () => {
   console.log("ddd")
+  console.log("aaa")
+  console.log("sss")
+  setTimeout(() => {
+    console.log("ddddddd")
+    }, 500)
+  console.log("xxx")
+
   return (
     <div
       style={{
